@@ -31,7 +31,6 @@ int main() {
     cout << "선택: ";
     cin >> job_choice;
 
-    // switch 그대로 써도 되고, if로 바꿔도 됩니다.
     if (job_choice == 1) player = new Warrior(nickname);
     else if (job_choice == 2) player = new Magician(nickname);
     else if (job_choice == 3) player = new Thief(nickname);
